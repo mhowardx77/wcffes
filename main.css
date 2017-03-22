@@ -1,0 +1,126 @@
+body {
+  background-image: url('./assets/background1.jpg');
+  background-size: cover;
+}
+
+#container {
+  height: 900px;
+  width: 900px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, .70);
+}
+
+#mainHeader {
+  height: 190px;
+  width: 100%;
+}
+
+#mainHeader img {
+  background-color: rgba(255, 255, 255, .85);
+}
+
+#headerTitle {
+  width: 710px;
+  height: 190px;
+  float: right;
+  text-align: center;
+}
+
+#headerTitle h1 {
+  font-size: 47px;
+}
+
+#headerTitle h2 {
+  font-size: 20px;
+}
+
+#sideMenu {
+  background-color: rgba(255, 255, 255, .85);
+  width: 190px;
+  height: 710px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainNav {
+  padding-top: 50px;
+  height: 65%;
+  width: 190px;
+  list-style: none;
+}
+
+#mainNav li {
+  width: 190px;
+}
+
+#mainNav li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  padding: 8px;
+  transition: 0.2s;
+}
+
+#mainNav li a:hover {
+  color: white;
+  background-color: rgb(194, 194, 194);
+}
+
+#content {
+display: flex;
+height: 500px;
+}
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 640px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#descPara {
+    width: 690px;
+    margin: 0;
+    padding: 10px;
+    float: right;
+    text-align: justify;
+}
+
+#paypalDues {
+  height: 35%;
+}
+
+/*MISSION*/
+#mission {
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+
+#missionTitle {
+  width: 710px;
+  height: 190px;
+  float: right;
+  text-align: center;
+  color: rgb(224, 122, 0);
+}
+
+#missionTitle h1 {
+  font-size: 50px;
+}
+
+#missionTitle p {
+  font-size: 20px;
+  font-weight: bold;
+}
