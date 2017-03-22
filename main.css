@@ -58,6 +58,7 @@ body {
   text-decoration: none;
   display: block;
   color: #000;
+  font-size: 20px;
   padding: 8px;
   transition: 0.2s;
 }
@@ -103,7 +104,7 @@ height: 500px;
 
 /*MISSION*/
 #mission {
-  font-size: 20px;
+  font-size: 23px;
   text-align: justify;
   padding: 20px;
 }
@@ -123,4 +124,48 @@ height: 500px;
 #missionTitle p {
   font-size: 20px;
   font-weight: bold;
+}
+
+/*STORE*/
+#storeTitle {
+  width: 710px;
+  height: 190px;
+  float: right;
+  text-align: center;
+}
+
+#storeTitle h1 {
+  font-size: 65px;
+}
+
+#store {
+  text-align: center;
+  padding: 20px;
+  font-size: 53px;
+}
+
+/*CONTACT*/
+#contact {
+  font-size: 30px;
+  padding-top: 150px;
+  padding-left: 20px;
+}
+
+#contact li {
+  list-style: none;
+}
+
+/*BOARD MEMBERS*/
+#board {
+  font-size: 25px;
+  text-align: center;
+}
+
+#board li {
+  list-style: none;
+}
+
+#board h3 {
+  color: rgb(224, 122, 0);
+  text-decoration: underline;
 }
