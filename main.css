@@ -2,6 +2,7 @@ body {
   background-image: url('./assets/background1.jpg');
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
 }
 
 #container {
