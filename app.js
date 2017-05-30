@@ -8,3 +8,4 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 },  4000);
+console.log("app.js has been loaded...");
