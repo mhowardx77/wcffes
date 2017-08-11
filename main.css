@@ -27,8 +27,7 @@ body {
   height: 190px;
   float: right;
   text-align: center;
-  background-color: rgba(255, 255, 255, .85);
-}
+  }
 
 #headerTitle h1 {
   margin-bottom: 10px;
@@ -75,8 +74,8 @@ body {
 }
 
 #content {
-display: flex;
-height: 1000px;
+  display: flex;
+  height: 900px;
 }
 
 #slideshow {
@@ -178,13 +177,18 @@ height: 1000px;
 
 .announcement {
   height: 200px;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
-  margin-top: 5px;
 }
 
 .announcement h1 {
   color: orange;
+}
+
+.announcement p {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: justify;
 }
 
 .highlight {
