@@ -196,6 +196,11 @@ body {
   text-align: center;
 }
 
+.announcement img {
+  height: 400px;
+  width: 640px;
+}
+
 .highlight {
   color: rgb(51, 153, 51);
   text-decoration: underline;
