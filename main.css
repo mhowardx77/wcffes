@@ -76,7 +76,7 @@ body {
 
 #content {
   display: flex;
-  height: 2000px;
+  height: 2300px;
 }
 
 #slideshow {
@@ -196,7 +196,7 @@ body {
   text-align: center;
 }
 
-.announcement img {
+.irishfest {
   height: 400px;
   width: 640px;
 }
