@@ -83,9 +83,8 @@ body {
     margin: 50px auto;
     position: relative;
     width: 640px;
-    height: 400px;
+    height: 466px;
     padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 #slideshow div {
